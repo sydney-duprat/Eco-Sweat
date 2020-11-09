@@ -359,3 +359,43 @@ h2{
 	font-size: 30px;
 	color: rgb(100,100,100);
 }
+
+
+/* CSS pour les formulaires */
+
+.form {
+	position: absolute;
+	top: 27%;
+	left: 13%;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.4);
+	padding: 40px;
+	border-radius: 15px;
+	border: 1px solid #fff;
+}
+
+.form p{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+}
+
+.form input,select{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.form:hover{
+	background-color: #398139;
+}
+
+.form input,[type=text] , form input,[type=number]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	display: 16px;
+	color: #fff;
+}
