@@ -10,7 +10,7 @@
 @import url("components/socials.css");
 
 body {
-	background-color: rgb (255, 255, 255) ;
+	background-color: #E8E9E1;
 	color:rgb(0, 0, 0);
 	margin:0px;
 	font-family: "Open-Sans", serif
@@ -19,7 +19,7 @@ body {
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 24px;
 	padding-bottom: 20px;
 	text-align:center;
 	margin-bottom:15px;
@@ -28,17 +28,18 @@ h1 {
 h2 {
 font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 26px;
 	padding-bottom: 30px;
 	text-align:center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 
 h3{
 font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	font-size: 15px;
-	padding-bottom: 30px;
+	font-size: 20px;
 	text-align:center;
 
 }
@@ -137,9 +138,8 @@ h3{
 
 @media (max-width:500px) 
 
-.column{
-    width: 100%;
-  }
+.column {
+	width: 100px;
 }
 
 /* Our Team */
@@ -150,6 +150,7 @@ h3{
 
 }.img-circle {
 	border-radius: 50%;
+	margin-top: 30px;
 }
 
 
@@ -193,7 +194,8 @@ h2{
 	margin: 0px auto;
 	padding-top: 45px;
 	padding-bottom: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+	background-color: #F3F4ED;
 }
 
 @media(max-width: 760px){
@@ -220,6 +222,7 @@ h2{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 40px;
+	background-color: white;
 }
 
 .logo{
@@ -266,11 +269,40 @@ h2{
 	color: white;
 }
 
+#btn-values {
+	background-color: #398139;
+	padding: 10px 35px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	border-radius: 15px;
+	position: center;
+	margin-left: 420px;
+}
+
+#btn-values:hover {
+	background-color: black;
+	color: white;
+}
+
+#btn-product {
+	background-color: #E8E9E1;
+}
+
+#btn-homepage {
+	background-color: #E8E9E1;
+}
+
+#textvalues-justify {
+	text-align: justify;
+}
+
 .banner{
 	background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url(images/backgroundecosweat.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 110px;
+	height: 60px;
 	color: white;
 	padding: 0px, 0px;
 	justify-content: center;
@@ -284,6 +316,8 @@ h2{
 
 .bannerhomepage{
 	background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url(images/backgroundecosweat.jpg);
+	padding-bottom: 90px;
+	padding-top: 90px;
 }
 
 #price {
@@ -302,9 +336,10 @@ h2{
 
 #summary {
 	padding-left: 40px;
-	text-align: center;
 	padding-right: 40px;
-	text-align: left;
+	margin-bottom: 20px;
+	text-align: justify;
+
 }
 
 .list-inline{
@@ -321,10 +356,12 @@ h2{
 	top: 60px;
 	right: 70px ;
 }
+
 #price-box{
 	margin-left: 100px;
 	text-align: center;
 	position: right;
+	margin-right: 500px;
 }
 
 		/* Les ID de Suz */
@@ -370,6 +407,18 @@ h2{
 	color: rgb(100,100,100);
 }
 
+#projects-card {
+	background-color: #E8E9E1;
+}
+
+#btn-sloweare {
+	background-color: #919b8f;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+	margin-left: 150px;
+
+}
 
 /* CSS pour les formulaires */
 
