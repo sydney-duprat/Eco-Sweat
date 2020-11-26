@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@700;900&display=swap');
+
+/* Components*/
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner1.css");
+@import url("components/button2.css");
+@import url("components/button3.css");
+@import url("components/logo.css");
+@import url("components/socials.css");
+@import url("components/imgsad.css");
+
+/* General style */
+
+body {
+	background-color: #E8E9E1;
+	color:rgb(0, 0, 0);
+	margin:0px;
+	font-family: "Open-Sans", serif
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-size: 24px;
+	padding-bottom: 20px;
+	text-align:center;
+	margin-bottom:15px;
+}
+
+h2 {
+font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	padding-bottom: 30px;
+	text-align:center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+h3{
+font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align:center;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+p {
+	text-align: center;
+	justify-content: center;
+	padding-top: 0px;
+}
+
+
+/* Section on Values */
+
+.row {
+	text-align: center;
+	padding:10px;
+	position:relative;
+
+}
+
+
+#introduction h2 {
+	margin-bottom:80px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+
+.column {
+	float:left;
+	width:33.33%;
+	padding:3px;
+
+}
+
+.imageColumn {
+   float: center;
+   width: 33.33%;
+   padding: 5px;
+}
+
+
+#btn-values {
+	background-color: #398139;
+	padding: 10px 35px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	border-radius: 15px;
+	position: center;
+	margin-left: 420px;
+}
+
+#btn-values:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media (max-width:500px) 
+
+.column {
+	width: 100px;
+}
+
+
+/* Section on our team */
+
+.row {
+	text-align: center;
+	padding:10px;
+
+}.img-circle {
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+
+.column2{
+	float:left;
+	width:25%;
+	padding:0px;
+}
+
+.imagecolumn2{
+	float:center;
+	width:25%;
+	padding:0px;
+}
+
+
+/* CSS for forms */
+
+.form {
+	position: absolute;
+	top: 27%;
+	left: 13%;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.4);
+	padding: 40px;
+	border-radius: 15px;
+	border: 1px solid #fff;
+}
+
+.form p{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+}
+
+.form input,select{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.form:hover {
+	background-color: #398139;
+}
+
+.form input,[type=text] , form input,[type=number]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	display: 16px;
+	color: #fff;
+}
+
+
+/* Basket Page CSS with responsive layout */
+
+.container{
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	background-color: #F3F4ED;
+}
+
+
+.titre{
+	width: 1000px;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+.container-small{
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+
+@media(max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+
+/*custom design with class*/
+
+#btn-product {
+	background-color: #E8E9E1;
+}
+
+#btn-homepage {
+	background-color: #E8E9E1;
+}
+
+#textvalues-justify {
+	text-align: justify;
+}
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url(images/backgroundecosweat.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	color: white;
+	padding: 0px, 0px;
+	justify-content: center;
+}
+
+.banner h1{
+	font-size: 22px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.bannerhomepage{
+	background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url(images/backgroundecosweat.jpg);
+	padding-bottom: 90px;
+	padding-top: 90px;
+}
+
+#price {
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#launchingdate {
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#photo-basket {
+	padding: 20px;
+}
+
+#summary {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+	text-align: justify;
+
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+#socials{
+	position: absolute;
+	top: 60px;
+	right: 70px ;
+}
+
+#price-box{
+	margin-left: 100px;
+	text-align: center;
+	position: right;
+	margin-right: 500px;
+}
+
+
+/* Les ID de Suz */
+
+
+#price {
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+
+#visuel {
+	padding-left: 40px;
+}
+
+#description {
+	padding-left: 40px;
+	text-align: center;
+	padding-right: 40px;
+	text-align: justify-all;
+
+}
+
+.list-inline {
+	list-style: none;
+	margin-right: 30px;
+	margin-left: 30px;
+	position: absolute;
+	top: 80px; right: 10px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 5px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	font-size: 30px;
+	color: rgb(100,100,100);
+}
+
+#projects-card {
+	background-color: #E8E9E1;
+}
+
+#btn-sloweare {
+	background-color: #919b8f;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+	margin-left: 150px;
+
+}
+
