@@ -196,7 +196,7 @@ h2{
 	padding-top: 45px;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-	background-color: #F3F4ED;
+	background-color: white;
 }
 
 @media(max-width: 760px){
@@ -224,7 +224,6 @@ h2{
 	padding-bottom: 20px;
 	margin-bottom: 40px;
 	background-color: white;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
 }
 
 .logo{
@@ -294,6 +293,19 @@ h2{
 
 #btn-homepage {
 	background-color: #E8E9E1;
+}
+
+#btn-return {
+	background-color: transparent;
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+#btn-payment {
+	margin-left: 300px;
 }
 
 #textvalues-justify {
